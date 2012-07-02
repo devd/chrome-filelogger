@@ -1,0 +1,11 @@
+{
+  "name": "FileWriter Extension",
+  "version": "1.0",
+  "background": {
+	"scripts" : ["background.js"]
+   },
+  "description": "An extension that receives requests from other extensions and writes them to a file named by the extensionID.",
+  "permissions": [
+    "unlimitedStorage"
+  ]
+}
